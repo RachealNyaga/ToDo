@@ -1,0 +1,71 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* General styles */
+.text-center {
+    text-align: center;
+}
+
+/* Form styles */
+.add-todos-form {
+    width: 50%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.add-todos-form label {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px;
+}
+
+.add-todos-form label p,
+.add-todos-form label input {
+    width: 50%;
+}
+
+.add-todos-form .submit-todo {
+    display: block;
+    padding: 12px 20px;
+    margin-top: 20px;
+    background-color: aqua;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+/* Todos list */
+.list-todos {
+    width: 50%;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.list-todos li {
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px dashed #000;
+}
+
+.complete-todo {
+    color: rgb(4, 128, 0);
+    cursor: pointer;
+}
+.delete {
+    color: rgba(255, 0, 0, 0.884);
+    cursor: pointer;
+}
+
+.completed {
+    background: rgba(255, 193, 143, 0.877);
+}
+
+.completed p {
+    text-decoration: line-through;
+}
