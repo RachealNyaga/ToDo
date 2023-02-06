@@ -1,15 +1,14 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: sans-serif;
+
 }
 
-/* General styles */
-.text-center {
-    text-align: center;
+
+ .text-center {
+    text-align: center; 
 }
 
-/* Form styles */
 .add-todos-form {
     width: 50%;
     margin: 50px auto;
@@ -35,7 +34,6 @@ body {
     margin-top: 20px;
     background-color: aqua;
     border: none;
-    text-transform: uppercase;
     cursor: pointer;
 }
 
@@ -50,7 +48,8 @@ body {
     padding: 15px;
     margin-top: 10px;
     border-radius: 10px;
-    border: 1px dashed #000;
+    border: 1px dashed rgb(197, 104, 104);
+   
 }
 
 .complete-todo {
@@ -63,9 +62,16 @@ body {
 }
 
 .completed {
-    background: rgba(255, 193, 143, 0.877);
+    background: rgba(255, 156, 143, 0.877);
 }
 
 .completed p {
     text-decoration: line-through;
+    color: brown;
 }
+
+    h2{
+        text-align: center;
+        color: blue;
+
+    }
